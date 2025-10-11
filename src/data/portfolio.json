@@ -1,0 +1,30 @@
+
+{
+  "profile": {
+    "name": "Your Name",
+    "tagline": "Full‑Stack Engineer | React + Laravel",
+    "avatar": "public/avatar.png",
+    "resume": "public/resume.pdf"
+  },
+  "about": "A concise 2‑3 sentence bio...",
+  "skills": [
+    { "name": "React", "level": 4, "max": 5 },
+    { "name": "Laravel", "level": 5, "max": 5 },
+    { "name": "Docker", "level": 3, "max": 5 }
+  ],
+  "projects": [
+    {
+      "title": "Multi‑Vendor Marketplace",
+      "description": "SaaS platform built with Laravel, Vue, Stripe.",
+      "image": "public/projects/marketplace.png",
+      "tech": ["Laravel", "Vue", "Tailwind", "Stripe"],
+      "demo": "https://demo.marketplace.com",
+      "repo": "https://github.com/you/marketplace"
+    }
+  ],
+  "contact": {
+    "email": "you@example.com",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername"
+  }
+}
