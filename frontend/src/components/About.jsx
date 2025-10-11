@@ -8,9 +8,11 @@ const About = () => {
     <VStack as="section" id="about" spacing={4} align="start" p={8}>
       <Heading as="h2" size="xl">About Me</Heading>
       <Text fontSize="lg">{data.about}</Text>
-      <Button as="a" href={data.profile.resume} target="_blank" rel="noopener noreferrer" colorScheme="teal">
-        Download Resume
-      </Button>
+      {data.profile.resume && (
+        <Button as="a" href={data.profile.resume} target="_blank" rel="noopener noreferrer" colorScheme="teal">
+          Download Resume
+        </Button>
+      )}
     </VStack>
   );
 };
