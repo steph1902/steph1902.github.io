@@ -4,18 +4,18 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import { Box } from '@chakra-ui/react';
+import { Box, Container } from '@chakra-ui/react';
 
 function App() {
   return (
-    <Box>
+    <Box minH="100vh" bg="gray.50">
       <Header />
-      <Box as="main" p={4}>
+      <Container as="main" maxW="container.xl" py={8}>
         <About />
         <Skills />
         <Projects />
         <Contact />
-      </Box>
+      </Container>
     </Box>
   );
 }
