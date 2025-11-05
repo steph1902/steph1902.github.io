@@ -1,0 +1,205 @@
+{
+  "page_layout": {
+    "dimensions": {
+      "width": "A4",
+      "height": "A4",
+      "orientation": "portrait"
+    },
+    "padding": {
+      "top": "50mm",
+      "right": "30mm",
+      "bottom": "30mm",
+      "left": "30mm"
+    },
+    "background_color": "#FFFFFF"
+  },
+  "sections": [
+    {
+      "id": "header_left",
+      "type": "text_block",
+      "position": {
+        "x": "30mm",
+        "y": "50mm"
+      },
+      "width": "auto",
+      "height": "auto",
+      "text_content": "Ёдзи Ямамото –\nфилософ в мире моды",
+      "font_family": "serif",
+      "font_size": "10pt",
+      "font_weight": "normal",
+      "line_height": "1.4",
+      "text_align": "left",
+      "color": "#000000"
+    },
+    {
+      "id": "header_right_japanese_vertical",
+      "type": "text_block",
+      "position": {
+        "x": "calc(100% - 60mm)",
+        "y": "50mm"
+      },
+      "width": "20mm",
+      "height": "60mm",
+      "text_content": "山本耀司",
+      "font_family": "serif",
+      "font_size": "24pt",
+      "font_weight": "normal",
+      "writing_mode": "vertical-rl",
+      "text_orientation": "upright",
+      "text_align": "center",
+      "color": "#000000"
+    },
+    {
+      "id": "main_image",
+      "type": "image",
+      "position": {
+        "x": "calc(100% - 150mm)",
+        "y": "50mm"
+      },
+      "width": "120mm",
+      "height": "90mm",
+      "border": "1pt solid #000000",
+      "object_fit": "cover",
+      "image_placeholder": "https://example.com/yohji-yamamoto-portrait.jpg"
+    },
+    {
+      "id": "small_date_left",
+      "type": "text_block",
+      "position": {
+        "x": "30mm",
+        "y": "120mm"
+      },
+      "width": "auto",
+      "height": "auto",
+      "text_content": "1943 г.",
+      "font_family": "serif",
+      "font_size": "8pt",
+      "font_weight": "normal",
+      "color": "#000000"
+    },
+    {
+      "id": "small_japanese_name_center",
+      "type": "text_block",
+      "position": {
+        "x": "90mm",
+        "y": "120mm"
+      },
+      "width": "auto",
+      "height": "auto",
+      "text_content": "Ёдзи Ямамото (яп. 山本耀司)",
+      "font_family": "serif",
+      "font_size": "8pt",
+      "font_weight": "normal",
+      "color": "#000000"
+    },
+    {
+      "id": "main_title",
+      "type": "text_block",
+      "position": {
+        "x": "30mm",
+        "y": "180mm"
+      },
+      "width": "calc(100% - 60mm)",
+      "height": "auto",
+      "text_content": "Yohji\nYamamoto",
+      "font_family": "serif",
+      "font_size": "48pt",
+      "font_weight": "bold",
+      "line_height": "1.0",
+      "text_align": "left",
+      "color": "#000000"
+    },
+    {
+      "id": "description_text",
+      "type": "text_block",
+      "position": {
+        "x": "30mm",
+        "y": "220mm"
+      },
+      "width": "calc(100% - 60mm)",
+      "height": "auto",
+      "text_content": "Ёдзи Ямамото (яп. 山本耀司 Ямамото Ёдзи, Yohji Yamamoto), родился 3 октября 1943 года) – всемирно известный модельер одежды. Один из ведущих представителей деконструктивизма в моде.",
+      "font_family": "serif",
+      "font_size": "9pt",
+      "font_weight": "normal",
+      "line_height": "1.5",
+      "text_align": "left",
+      "color": "#000000"
+    },
+    {
+      "id": "divider_line",
+      "type": "line",
+      "position": {
+        "x": "30mm",
+        "y": "260mm"
+      },
+      "width": "calc(100% - 60mm)",
+      "height": "1pt",
+      "color": "#000000"
+    },
+    {
+      "id": "subheading_childhood",
+      "type": "text_block",
+      "position": {
+        "x": "30mm",
+        "y": "270mm"
+      },
+      "width": "auto",
+      "height": "auto",
+      "text_content": "Childhood",
+      "font_family": "serif",
+      "font_size": "10pt",
+      "font_weight": "bold",
+      "color": "#000000"
+    },
+    {
+      "id": "childhood_paragraph",
+      "type": "text_block",
+      "position": {
+        "x": "100mm",
+        "y": "270mm"
+      },
+      "width": "calc(100% - 130mm)",
+      "height": "auto",
+      "text_content": "Ёдзи Ямамото родился в Токио. После получения диплома в Университете Кейо в 1966 г. специальность «правоведение», он поступил в колледж, где занялся изучением моды и окончил его в 1969 году. Ёдзи Ямамото выпустил несколько коллекций, ставших известными во всем мире.",
+      "font_family": "serif",
+      "font_size": "9pt",
+      "font_weight": "normal",
+      "line_height": "1.5",
+      "text_align": "left",
+      "color": "#000000"
+    },
+    {
+      "id": "brand_list_title",
+      "type": "text_block",
+      "position": {
+        "x": "100mm",
+        "y": "320mm"
+      },
+      "width": "calc(100% - 130mm)",
+      "height": "auto",
+      "text_content": "Yohji Yamamoto\nYohji Yamamoto POUR HOMME\nYohji Yamamoto + NOIR\nY's\nY's for men\nY's for women\nY's for living",
+      "font_family": "serif",
+      "font_size": "8pt",
+      "font_weight": "normal",
+      "line_height": "1.4",
+      "text_align": "left",
+      "color": "#000000"
+    },
+    {
+      "id": "footer_date_right",
+      "type": "text_block",
+      "position": {
+        "x": "calc(100% - 60mm)",
+        "y": "calc(100% - 20mm)"
+      },
+      "width": "auto",
+      "height": "auto",
+      "text_content": "1943 г.",
+      "font_family": "serif",
+      "font_size": "8pt",
+      "font_weight": "normal",
+      "color": "#000000"
+    }
+  ]
+}
