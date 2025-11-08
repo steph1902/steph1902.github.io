@@ -3,26 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephanus Sujatmoko - Full-Stack Software Engineer</title>
+    <title>Stephanus Sujatmoko - DX Solution Architect & Full-Stack Software Engineer</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="lang-switcher">
+        <button id="lang-en" class="active">EN</button>
+        <button id="lang-jp">JP</button>
+    </div>
+
     <div class="container">
         <header class="header">
             <div class="header__main">
-                <h1 class="header__name">Stephanus Sujatmoko</h1>
-                <h2 class="header__title">Full-Stack Software Engineer</h2>
+                <h1 class="header__name" data-translate="header_name">Stephanus Sujatmoko</h1>
+                <h2 class="header__title" data-translate="header_title">DX Solution Architect & Full-Stack Software Engineer</h2>
                 <div class="header__contact">
-                    <a href="mailto:stephanus1902@gmail.com">stephanus1902@gmail.com</a> |
-                    <a href="tel:+6287781331210">+62 87781331210</a> |
-                    <a href="https://kairos-projects.com" target="_blank">kairos-projects.com</a> |
-                    <a href="https://linkedin.com/in/stephanussujatmoko" target="_blank">LinkedIn</a> |
-                    <a href="https://github.com/stephanus-s" target="_blank">GitHub</a>
+                    <a href="mailto:stephanus1902@gmail.com">stephanus1902@gmail.com</a>
+                    <a href="https://github.com/step1902" target="_blank">github.com/step1902</a>
+                    <a href="#" target="_blank" data-translate="japanese_resume">Japanese Resume (PDF)</a>
                 </div>
-                <p class="header__location">Jakarta, Indonesia → Seeking opportunities in Japan (Visa sponsorship required)</p>
+                <p class="header__location" data-translate="header_location">Jakarta, Indonesia</p>
             </div>
 
             <div class="header__japanese-name" aria-hidden="true">
@@ -33,97 +36,89 @@
 
         <main class="main-content">
             <section class="section" id="summary">
-                <h3 class="section__title">Professional Summary</h3>
-                <p>Full-stack software engineer with 9+ years of experience in web development and information systems. Founded and scaled digital agency (PT. Arunika Global Creative) while delivering 600+ web projects. Strong expertise in modern JavaScript frameworks, full-stack architecture, and team leadership.</p>
-                <p>Seeking mid to senior-level engineering roles in Japan where I can leverage my combination of hands-on technical skills, project delivery experience, and team collaboration abilities. Transitioning from agency founder to focus 100% on technical development.</p>
+                <h3 class="section__title" data-translate="summary_title">Professional Summary</h3>
+                <p data-translate="summary_p1">Full-stack DX and software professional with 9+ years of experience driving digital transformation from concept (0→1) to full enterprise implementation. Specialized in transforming paper-based or fragmented workflows into integrated cloud systems using modern frameworks (Next.js, Laravel, React). Founded and scaled digital agency (PT. Arunika Global Creative) while delivering 20+ digital transformation projects across logistics, e-commerce, government, and corporate sectors.</p>
+                <p data-translate="summary_p2"><strong>Core expertise:</strong> Bridging business needs and technology strategy to deliver high-impact digital solutions that enhance operational efficiency, data visibility, and customer value. Proven track record converting manual processes into scalable, automated web platforms with measurable business outcomes.</p>
             </section>
 
             <section class="section" id="skills">
-                <h3 class="section__title">Technical Skills</h3>
+                <h3 class="section__title" data-translate="skills_title">Technical Skills</h3>
                 <div class="skills-grid">
                     <div>
-                        <h4>Frontend Development</h4>
+                        <h4 data-translate="skills_frontend_title">Frontend Development</h4>
                         <p>React • Next.js • TypeScript • JavaScript (ES6+) • HTML5 • CSS3 • Tailwind CSS • Responsive Design • UI/UX Implementation</p>
                     </div>
                     <div>
-                        <h4>Backend Development</h4>
-                        <p>Node.js • Express.js • PHP • RESTful API Design • GraphQL (basic) • WebSocket • Server-side Rendering</p>
+                        <h4 data-translate="skills_backend_title">Backend Development</h4>
+                        <p>Node.js • Express.js • PHP • Laravel • RESTful API Design • GraphQL (basic) • WebSocket • Server-side Rendering</p>
                     </div>
                     <div>
-                        <h4>Databases & ORMs</h4>
+                        <h4 data-translate="skills_db_title">Databases & ORMs</h4>
                         <p>PostgreSQL • MySQL • MongoDB • SQL • Prisma • Database Design & Optimization</p>
                     </div>
                     <div>
-                        <h4>DevOps & Tools</h4>
-                        <p>Git • GitHub • Docker • AWS (EC2, S3, RDS) • CI/CD • Vercel • Linux • VS Code</p>
-                    </div>
-                    <div>
-                        <h4>Languages</h4>
-                        <p>Indonesian (Native) • English (Fluent) • Japanese (JLPT N5 - Studying for N4)</p>
+                        <h4 data-translate="skills_devops_title">DevOps & Cloud</h4>
+                        <p>Git • GitHub • Docker • AWS (EC2, S3, RDS) • CI/CD • Vercel • Linux • Cloud Architecture</p>
                     </div>
                 </div>
             </section>
 
             <section class="section" id="experience">
-                <h3 class="section__title">Professional Experience</h3>
+                <h3 class="section__title" data-translate="experience_title">Professional Experience</h3>
                 <div class="job">
-                    <h4>Founder & Lead Software Engineer</h4>
-                    <p><strong>PT. Arunika Global Creative (Kairos Projects)</strong> • Jakarta, Indonesia | June 2019 - Present</p>
+                    <h4 data-translate="experience_job1_title">Founder & Lead Software Engineer</h4>
+                    <p><strong>PT. Arunika Global Creative (Kairos Projects)</strong> • <span data-translate="experience_job1_location">Jakarta, Indonesia</span> | <span data-translate="experience_job1_date">June 2019 - Present</span></p>
                     <ul>
-                        <li>Architected and developed 15-20 production web applications using React, Next.js, TypeScript, and Node.js.</li>
-                        <li>Built and led a technical team of 10+ members, establishing coding standards and development workflows.</li>
-                        <li>Optimized application performance, reducing load times by 40% through modern techniques.</li>
-                        <li>Managed full project lifecycle, achieving a 95%+ client satisfaction rate.</li>
+                        <li data-translate="experience_job1_li1">Led 25+ end-to-end DX projects (0→1), transforming paper-based workflows into complete digital systems using Next.js and Laravel.</li>
+                        <li data-translate="experience_job1_li2">Architected and developed full-stack solutions including custom CMS platforms, e-commerce systems with payment gateway integration, and enterprise business applications.</li>
+                        <li data-translate="experience_job1_li3">Built and led technical team from 2 to 30+ members (developers, designers, content creators).</li>
                     </ul>
                 </div>
                 <div class="job">
-                    <h4>IT Project Manager (Contract)</h4>
-                    <p><strong>HTC Global Services</strong> • Jakarta, Indonesia | May 2022 - October 2022</p>
+                    <h4 data-translate="experience_job2_title">IT Project Manager (Contract)</h4>
+                    <p><strong>HTC Global Services</strong> • <span data-translate="experience_job2_location">Jakarta, Indonesia</span> | <span data-translate="experience_job2_date">May 2022 - October 2022</span></p>
                     <ul>
-                        <li>Managed a full-stack development project for a banking wealth management system.</li>
-                        <li>Coordinated with cross-functional teams to deliver features on schedule.</li>
+                        <li data-translate="experience_job2_li1">Managed full-stack development project for banking wealth management system.</li>
+                        <li data-translate="experience_job2_li2">Coordinated with cross-functional technical teams to deliver features on schedule.</li>
                     </ul>
                 </div>
                  <div class="job">
-                    <h4>Head of Information Technology Department (Contract)</h4>
-                    <p><strong>Metro Logistik Indonesia</strong> • Jakarta, Indonesia | January 2020 - May 2022</p>
+                    <h4 data-translate="experience_job3_title">Head of Information Technology Department (Contract)</h4>
+                    <p><strong>Metro Logistik Indonesia</strong> • <span data-translate="experience_job3_location">Jakarta, Indonesia</span> | <span data-translate="experience_job3_date">January 2020 - May 2022</span></p>
                     <ul>
-                        <li>Led web development initiatives, improving performance by 80% and traffic by 40%.</li>
-                        <li>Rebuilt company website with a modern React-based architecture.</li>
+                        <li data-translate="experience_job3_li1">Led comprehensive DX program replacing paper-based logistics operations with integrated web systems.</li>
+                        <li data-translate="experience_job3_li2">Developed and maintained 4 critical business systems for Warehouse Management, HR, Finance, and a customer-facing website.</li>
                     </ul>
                 </div>
             </section>
 
             <section class="section" id="projects">
-                <h3 class="section__title">Portfolio Projects</h3>
+                <h3 class="section__title" data-translate="projects_title">Project Portfolio</h3>
                 <div class="project">
-                    <h4>Full-Stack Web Application</h4>
-                    <p><strong>Tech:</strong> Next.js 14, TypeScript, PostgreSQL, Prisma, NextAuth.js, Tailwind CSS</p>
-                    <p>Modern full-stack application featuring authentication, a RESTful API, and server-side rendering. Deployed on Vercel with CI/CD.</p>
-                    <a href="https://github.com/stephanus-s/project1" target="_blank">View Code</a>
+                    <h4 data-translate="projects_project1_title">E-commerce Platform: kpgfood.co.id</h4>
+                    <p data-translate="projects_project1_desc">Complete online shop with end-to-end payment gateway integration.</p>
+                    <a href="https://kpgfood.co.id/" target="_blank" data-translate="view_project">View Project</a>
                 </div>
                 <div class="project">
-                    <h4>Real-Time Collaborative Platform</h4>
-                    <p><strong>Tech:</strong> React, TypeScript, Node.js, Express, MongoDB, Socket.io</p>
-                    <p>A real-time application demonstrating WebSocket integration, complex state management, and interactive data visualizations.</p>
-                     <a href="https://github.com/stephanus-s/project2" target="_blank">View Code</a>
+                    <h4 data-translate="projects_project2_title">Government Digital Portal: sdgs.jakarta.go.id</h4>
+                    <p data-translate="projects_project2_desc">Jakarta City Hall SDGs website with 70% increase in user satisfaction.</p>
+                     <a href="https://sdgs.jakarta.go.id/" target="_blank" data-translate="view_project">View Project</a>
                 </div>
                 <div class="project">
-                    <h4>E-Commerce Application</h4>
-                    <p><strong>Tech:</strong> Next.js 14, TypeScript, Stripe API, Tailwind CSS</p>
-                    <p>Production-ready e-commerce platform with Stripe integration, using Next.js 14 App Router and Server Components.</p>
-                     <a href="https://github.com/stephanus-s/project3" target="_blank">View Code</a>
+                    <h4 data-translate="projects_project3_title">Enterprise Business Systems (Metro Logistik Indonesia)</h4>
+                    <p data-translate="projects_project3_desc">WHMS, HRMS, Finance System, and Logistics Tracking Integration.</p>
                 </div>
             </section>
 
             <section class="section" id="education">
-                <h3 class="section__title">Education</h3>
-                <p><strong>Bachelor of Computer Science - Information Technology</strong></p>
-                <p>Universitas Bina Nusantara (Binus) | Jakarta, Indonesia | 2011 - 2015</p>
+                <h3 class="section__title" data-translate="education_title">Education</h3>
+                <p><strong data-translate="education_degree">Bachelor of Computer Science - Information Technology</strong></p>
+                <p><span data-translate="education_university">Universitas Bina Nusantara (Binus)</span> | <span data-translate="education_location">Jakarta, Indonesia</span> | 2011 - 2015</p>
             </section>
         </main>
 
         <footer class="footer">
+            <p>&copy; 2025 <span data-translate="footer_name">Stephanus Sujatmoko</span></p>
         </footer>
     </div>
     <script src="script.js"></script>
