@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
         en: {
             header_name: 'Stephanus Sujatmoko',
             header_title: 'DX Solution Architect & Full-Stack Software Engineer',
-            japanese_resume: 'Japanese Resume (PDF)',
+            japanese_resume_1: 'Resume (JP)',
+            japanese_resume_2: 'Work History (JP)',
             header_location: 'Jakarta, Indonesia',
             summary_title: 'Professional Summary',
             summary_p1: 'Full-stack DX and software professional with 9+ years of experience driving digital transformation from concept (0→1) to full enterprise implementation. Specialized in transforming paper-based or fragmented workflows into integrated cloud systems using modern frameworks (Next.js, Laravel, React). Founded and scaled digital agency (PT. Arunika Global Creative) while delivering 20+ digital transformation projects across logistics, e-commerce, government, and corporate sectors.',
@@ -47,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
         jp: {
             header_name: 'ステファヌス・スジャトモコ',
             header_title: 'DXソリューションアーキテクト＆フルスタックソフトウェアエンジニア',
-            japanese_resume: '履歴書（日本語）',
+            japanese_resume_1: '履歴書',
+            japanese_resume_2: '職務経歴書',
             header_location: 'ジャカルタ、インドネシア',
             summary_title: '職務経歴の概要',
             summary_p1: 'コンセプト（0→1）から本格的なエンタープライズ実装まで、9年以上の経験を持つフルスタックDXおよびソフトウェアプロフェッショナル。紙ベースまたは断片化されたワークフローを、最新のフレームワーク（Next.js、Laravel、React）を使用して統合クラウドシステムに変換することに特化しています。デジタルエージェンシー（PT. Arunika Global Creative）を設立し、物流、電子商取引、政府、企業セクターで20以上のデジタルトランスフォーメーションプロジェクトを提供しました。',
