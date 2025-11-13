@@ -205,6 +205,31 @@ body {
     color: #000;
 }
 
+.demo-account-box {
+    background-color: #f8f9fa;
+    border-left: 4px solid #333;
+    padding: 1.2rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+}
+
+.demo-account-box p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.demo-account-box ul {
+    margin: 0.8rem 0;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+}
+
+.demo-account-box li {
+    margin: 0.4rem 0;
+    font-size: 0.85rem;
+    line-height: 1.6;
+}
+
 .footer {
     text-align: center;
     padding: 3rem 0;
